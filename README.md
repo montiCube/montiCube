@@ -20,7 +20,7 @@ An automated trading engine that runs against a **paper account**. No real money
 
 Most of my verification so far has been ruling on evidence that agents gather for me. I now read diffs by hand every day, starting with past bug fixes, so that I can check a finding myself.
 
-**Workflow sample:** [Monti Gist](https://gist.github.com/montiCube/593face1bac109ed8ea01af63732da3c)
+**Architectural Brief:** [antsPholio](https://gist.github.com/montiCube/593face1bac109ed8ea01af63732da3c)
 
 ## Also
 
