@@ -15,6 +15,7 @@ An automated trading engine that runs against a **paper account**. No real money
 - Every change has to pass a CI gate of more than 3,000 tests. Branch protection has no admin bypass.
 - Behavioral changes land together with an entry in a decision log, which now has more than 200 entries.
 - A seven-role adversarial review audits the system and my own write-ups: independent agent reviewers, blind verification of every finding, then a red-team pass. It has caught documents of mine claiming things the code did not do, and I corrected them.
+- The gates, the ledger format, the assumption rule and the review cadence are public in agent-gates.
 
 ### What I'm improving
 
@@ -28,5 +29,5 @@ Early Three.js and WebGL prototypes aimed at Rokid AR glasses.
 
 ## Contact
 
-- Email: jakeraum@gmail.com
+- Email: jake@centaur-montico.net
 - LinkedIn: [ian-jacob-raum](https://linkedin.com/in/ian-jacob-raum-934164246)
