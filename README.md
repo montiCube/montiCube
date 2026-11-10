@@ -10,12 +10,12 @@ An automated trading engine that runs against a **paper account**. No real money
 
 ### How the work gets done
 
-- About 200 pull requests, written by AI coding agents (mostly Claude Code) from briefs I write.
+- The gates, the ledger format, the assumption rule and the review cadence are public in agent-gates.
+- About 250 pull requests, written by AI coding agents (mostly Claude Code) from briefs I write.
 - Each agent session works in its own git worktree. Agents can push branches and open pull requests. Only I merge to main.
 - Every change has to pass a CI gate of more than 3,000 tests. Branch protection has no admin bypass.
 - Behavioral changes land together with an entry in a decision log, which now has more than 200 entries.
 - A seven-role adversarial review audits the system and my own write-ups: independent agent reviewers, blind verification of every finding, then a red-team pass. It has caught documents of mine claiming things the code did not do, and I corrected them.
-- The gates, the ledger format, the assumption rule and the review cadence are public in agent-gates.
 
 ### What I'm improving
 
